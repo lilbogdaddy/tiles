@@ -1,0 +1,19 @@
+body{
+  height: 100vh;
+  overflow: hidden;
+  margin: 0px;
+}
+
+#wrapper{
+  height: 100vh;
+  width: 100vw;
+
+  display: grid;
+  grid-template-columns: repeat(var(--columns), 1fr);
+  grid-template-rows: repeat(var(--roes), 1fr);
+  
+}
+
+.tile{
+  outline: 1px solid black;
+}
